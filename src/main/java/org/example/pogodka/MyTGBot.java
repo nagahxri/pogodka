@@ -13,7 +13,7 @@ public class MyTGBot implements SpringLongPollingBot {
     @Override
     public String getBotToken() {
         return Dotenv.load().get("TELEGRAM_TOKEN");
-        //add  here
+        //added .env  here
     }
 
     @Override
